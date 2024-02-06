@@ -16,7 +16,10 @@ const App = () => {
     }
   return (
     <>
-    <input type="button" value="Insert data" onClick={handleclick} />
+        <div className="App">
+                <input type="button" value="Insert data" onClick={handleclick} />
+
+        </div>
    
     </>
   )
